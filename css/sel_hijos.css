@@ -1,0 +1,9 @@
+body{
+	background: khaki;
+	margin-left: 30px;
+	color: black;
+}
+
+header > div > h1{
+	color: darkred;
+}
