@@ -1,0 +1,20 @@
+body{
+	background: khaki;
+	margin-left: 30px;
+	color: black;
+}
+
+/* 
+Selectores Adyacentes:
+Para elementos hermanos,
+inmediatamente despues del indicado;
+
+elemento + elementoAplicar{
+	
+}
+*/
+
+p + p {
+	color: gray;
+	text-indent: 30px; /* tabulación al texto*/
+}
