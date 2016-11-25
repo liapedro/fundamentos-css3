@@ -39,3 +39,41 @@ div#amarillo{
 	margin: 20px;
 	border: 1px solid black;
 }
+
+.azul{
+	color: blue;
+}
+.verde{
+	color: darkgreen;
+}
+.letra_grande{
+	font-size: 30px;
+}
+#rojo{
+	color: darkred;
+}
+
+
+/* ******************************* */
+/* 
+[nombre del atributo]
+
+[nombre_atributo=valor]
+
+[nombre_atributo~=valor] 
+
+[nombre_atributo|=valor] 
+
+*/
+p[class]{
+	text-decoration: underline;
+}
+h2[title="Primer Ejemplo de h2"]{
+	color: darkred;
+}
+p[class~="letra_grande"]{
+	text-decoration: none;
+}
+a[lang|="es"]{
+	font-style: italic;
+}
